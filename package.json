@@ -1,0 +1,29 @@
+{
+  "name": "chaideploy",
+  "version": "1.0.0",
+  "description": "a basic app to deploy",
+  "keywords": [
+    "node",
+    "chai"
+  ],
+  "homepage": "https://github.com/sandeepdev99/chai-aur-deploy#readme",
+  "bugs": {
+    "url": "https://github.com/sandeepdev99/chai-aur-deploy/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandeepdev99/chai-aur-deploy.git"
+  },
+  "license": "ISC",
+  "author": "sandy mon",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1"
+  }
+}
